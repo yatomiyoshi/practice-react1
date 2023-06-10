@@ -1,0 +1,11 @@
+.child.green {
+  padding: 1rem;
+  color: green;
+  border: 5px solid green;
+}
+
+.child.red {
+  padding: 1rem;
+  color: red;
+  border: 5px solid red;
+}

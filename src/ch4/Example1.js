@@ -1,12 +1,20 @@
-import "./Example.css";
-import List from "./components/List";
+import Child from "./components/Child";
+import Expression from "./components/Expression";
 
 const Example = () => {
+  const hello = (name) => <h4>Hello {name}</h4>;
   return (
-    <div className="component">
-      <h3>Hello Component</h3>
-      <List />
-    </div>
+    <>
+      <Child
+        color="red"
+        fn={hello}
+      />
+      <Child
+        num={123}
+        fn={hello}
+      />
+      <Expression />
+    </>
   );
 };
 

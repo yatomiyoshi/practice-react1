@@ -1,4 +1,5 @@
 import Child from "./components/Child";
+import Theme from "./components/Theme";
 import UseReducerComp from "./components/UseReducerComp";
 import UseStateComp from "./components/UseStateComp";
 
@@ -8,6 +9,7 @@ const Example = () => {
       <UseStateComp />
       <UseReducerComp />
       <Child />
+      <Theme />
     </>
   );
 };

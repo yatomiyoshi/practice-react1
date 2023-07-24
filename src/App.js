@@ -1,11 +1,15 @@
 import "./App.css";
-import Example from "./ch9/Example";
+import Example1 from "./react-dev/Example1";
+import MyApp1 from "./react-dev/Example2";
+import MyApp2 from "./react-dev/Example3";
 
 function App() {
   return (
     <>
       <div className="App"></div>
-      <Example />
+      <Example1 />
+      <MyApp1 />
+      <MyApp2 />
     </>
   );
 }

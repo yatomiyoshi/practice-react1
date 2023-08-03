@@ -4,6 +4,10 @@ import MyApp1 from "./react-dev/Example2";
 import MyApp2 from "./react-dev/Example3";
 import ProductApp from "./react-dev/Example4";
 import Gallery from "./react-dev/Example5";
+import { TodoList } from "./react-dev/Example6";
+import Profile from "./react-dev/Example7";
+import PackingList from "./react-dev/Example8";
+import PackingList2 from "./react-dev/Example9";
 
 function App() {
   return (
@@ -14,6 +18,10 @@ function App() {
       <MyApp2 />
       <ProductApp />
       <Gallery />
+      <TodoList />
+      <Profile />
+      <PackingList />
+      <PackingList2 />
     </>
   );
 }

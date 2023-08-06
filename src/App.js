@@ -1,5 +1,13 @@
 import "./App.css";
 import Example1 from "./react-dev/Example1";
+import List from "./react-dev/Example10";
+import {
+  Button1,
+  Signup,
+  Toolbar,
+  Toolbar2,
+  Toolbar3,
+} from "./react-dev/Example11";
 import MyApp1 from "./react-dev/Example2";
 import MyApp2 from "./react-dev/Example3";
 import ProductApp from "./react-dev/Example4";
@@ -22,6 +30,12 @@ function App() {
       <Profile />
       <PackingList />
       <PackingList2 />
+      <List />
+      <Button1 />
+      <Toolbar />
+      <Toolbar2 />
+      <Toolbar3 />
+      <Signup />
     </>
   );
 }
